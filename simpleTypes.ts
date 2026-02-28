@@ -37,3 +37,13 @@ let greeting: string = "Hello, " + fullName + "!"; // Concatenation
 
 console.log("\nFull Name:", fullName);
 console.log("Greeting:", greeting);
+
+
+// 4. BIGINT
+//Used for integers larger than Number.MAX_SAFE_INTEGER.
+let bigIntValue: bigint = 9007199254740991n; // Using 'n' suffix for bigint
+let anotherBigInt: bigint = BigInt("9007199254740992"); // Using BigInt constructor
+
+console.log("\nBigInt Value:", bigIntValue);
+console.log("Another BigInt:", anotherBigInt);
+
