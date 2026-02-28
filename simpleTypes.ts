@@ -47,3 +47,17 @@ let anotherBigInt: bigint = BigInt("9007199254740992"); // Using BigInt construc
 console.log("\nBigInt Value:", bigIntValue);
 console.log("Another BigInt:", anotherBigInt);
 
+// 5. SYMBOL
+//Used for unique identifiers.
+
+//Create unique symbols for object properties
+const uniqueId: symbol = Symbol("id");
+
+//Using symbols as object keys
+let user = {
+    name: "Antony",
+    [uniqueId]: 12345 // Using symbol as a key
+};
+
+console.log("\nUser Object:", user);
+console.log("Unique ID Symbol:", uniqueId);
