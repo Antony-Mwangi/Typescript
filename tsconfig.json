@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "commonJs",
+    "target": "es2020",
     "lib": ["esnext"],
     "types": ["node"],
+    "rootDir": "./src",
+    "outDir": "./dist",
 
     "sourceMap": true,
     "declaration": true,

@@ -8,9 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "^25.3.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "dependencies": {
+    "undici-types": "^7.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antony-Mwangi/Typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Antony-Mwangi/Typescript/issues"
+  },
+  "homepage": "https://github.com/Antony-Mwangi/Typescript#readme",
+  "description": ""
 }
